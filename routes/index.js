@@ -8,6 +8,7 @@ router.get('/', function(req, res, next) {
 });
 router.get('/hello', function (req, res) {
     res.status(200).send("Hello world!!");
+    console.log('hello world');
 });
 
 module.exports = router;
