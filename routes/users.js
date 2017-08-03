@@ -5,6 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
   console.log('55555cd');
+  console.log('asdsad');
 });
 
 module.exports = router;
